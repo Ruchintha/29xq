@@ -47,10 +47,7 @@
     width: 0;
     content: "";
     background: #000;
-    border-radius: 100px;
     border: 20px solid #fff;
-    border-top-color: rgba(0, 0, 0, .9);
-    border-bottom-color: rgba(0, 0, 0, .9)
 }
 
 .page-loader div p {
