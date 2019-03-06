@@ -22,7 +22,6 @@
     height: 100%;
     z-index: 9999;
     background-image: url(./resources/img/preloader.svg);
-    background-repeat: no-repeat;
     background-color: #FFF;
     background-position: center;
  }
