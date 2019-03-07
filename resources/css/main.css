@@ -3071,7 +3071,8 @@ textarea {
 }
 }.page-header-alpha .navbar-sidebar .nav-item.active {
     opacity: 1;
-    background: rgba(0, 0, 0, .9);
+    /* active background colour  */
+    background: rgba(0, 0, 0, .5);
     color: #fff;
 }
 .page-header-alpha .navbar-sidebar .nav-item.active .icon {
