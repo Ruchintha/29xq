@@ -3038,12 +3038,12 @@ textarea {
     transform: translateY(-50%);
 }
 }.page-header-alpha .navbar-sidebar .nav-item {
-    opacity: .5;
+    opacity: .9;
     -webkit-transition: .6s;
     transition: .6s;
     padding: 8px;
     margin-bottom: 1px;
-    background: rgba(255, 255, 255, .2);
+    background: rgba(255, 255, 255, .9);
 }
 .page-header-alpha .navbar-sidebar .nav-item a {
     text-decoration: none;
