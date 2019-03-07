@@ -3043,7 +3043,8 @@ textarea {
     transition: .6s;
     padding: 8px;
     margin-bottom: 1px;
-    background: rgba(255, 255, 255, .9);
+    /* nav backgroun color changed to black opasity 30% */
+    background: rgba(0, 0, 0, .3);
 }
 .page-header-alpha .navbar-sidebar .nav-item a {
     text-decoration: none;
@@ -3070,7 +3071,7 @@ textarea {
 }
 }.page-header-alpha .navbar-sidebar .nav-item.active {
     opacity: 1;
-    background: rgba(255, 255, 255, .9);
+    background: rgba(0, 0, 0, .9);
     color: #fff;
 }
 .page-header-alpha .navbar-sidebar .nav-item.active .icon {
