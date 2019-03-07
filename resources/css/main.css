@@ -3220,11 +3220,11 @@ textarea {
     margin-bottom: 4px;
     -webkit-transition: .3s;
     transition: .3s;
-    background: #b72026;
+    background: #fff;
 }
 @media(min-width:768px) {
     .menu-icon .bars .bar1, .menu-icon .bars .bar2, .menu-icon .bars .bar3 {
-    background: #b72026;
+    background: #fff;
 }
 }.menu-icon.menu-icon-thick .bars .bar1, .menu-icon.menu-icon-thick .bars .bar2, .menu-icon.menu-icon-thick .bars .bar3 {
     height: 4px;
