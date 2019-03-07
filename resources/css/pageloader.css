@@ -30,11 +30,9 @@
 
 .page-loader div {
     position: absolute;
-    top: 15%;
     width: 100%;
     text-align: center;
     color: #1d1d1d;
-    margin-top: -25px;
     display: block
 }
 
