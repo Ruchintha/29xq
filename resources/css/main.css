@@ -114,17 +114,17 @@ p {
 }
 .btn.active, .btn:active {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn:hover, .btn:focus {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
-    border-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
+    border-color: rgb(255, 1, 1);
 }
 .btn.disabled, .btn:disabled {
     color: #fff;
     opacity: .7;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn-full {
     width: 100%}
@@ -135,17 +135,17 @@ p {
 }
 .btn-primary.active, .btn-primary:active {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn-primary:hover, .btn-primary:focus {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
-    border-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
+    border-color: rgb(255, 1, 1);
 }
 .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
     opacity: .7;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn-secondary {
     color: #fff;
@@ -213,13 +213,13 @@ p {
     line-height: 1;
 }
 .btn-outline-primary.active, .btn-outline-primary:active {
-    color: rgba(51, 70, 209, .8);
-    border-color: rgba(51, 70, 209, .8);
+    color: rgb(255, 1, 1);
+    border-color: rgb(255, 1, 1);
     background-color: transparent;
 }
 .btn-outline-primary:hover, .btn-outline-primary:focus {
-    color: rgba(51, 70, 209, .8);
-    border-color: rgba(51, 70, 209, .8);
+    color: rgb(255, 1, 1);
+    border-color: rgb(255, 1, 1);
     background-color: transparent;
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -337,19 +337,19 @@ btn-transparent:focus {
 }
 .btn-material-primary.active, .btn-material-primary:active {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn-material-primary:hover, .btn-material-primary:focus {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
-    border-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
+    border-color: rgb(255, 1, 1);
     -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
     box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
 }
 .btn-material-primary.disabled, .btn-material-primary:disabled {
     color: #fff;
     opacity: .7;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn-material-secondary {
     color: #fff;
@@ -389,19 +389,19 @@ btn-transparent:focus {
 }
 .btn-material-white.active, .btn-material-white:active {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn-material-white:hover, .btn-material-white:focus {
     color: #fff;
-    background-color: rgba(51, 70, 209, .8);
-    border-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
+    border-color: rgb(255, 1, 1);
     -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
     box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
 }
 .btn-material-white.disabled, .btn-material-white:disabled {
     color: #fff;
     opacity: .7;
-    background-color: rgba(51, 70, 209, .8);
+    background-color: rgb(255, 1, 1);
 }
 .btn-material-black {
     color: #fff;
@@ -1168,7 +1168,7 @@ form label {
 .form-control-line:focus {
     color: inherit;
     background: 0 0;
-    border-color: rgba(51, 70, 209, .8);
+    border-color: rgb(255, 1, 1);
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none;
@@ -1177,7 +1177,7 @@ form label {
     border-bottom-color: #b72026;
 }
 .form-control-line.form-control-primary:focus {
-    border-color: rgba(51, 70, 209, .8);
+    border-color: rgb(255, 1, 1);
 }
 .form-control-line.form-control-primary.custom-select {
     background: transparent url(data:image/svg+xml;
@@ -1239,7 +1239,7 @@ form label {
 }
 .form-control-outline:focus {
     color: inherit;
-    border-color: rgba(51, 70, 209, .8);
+    border-color: rgb(255, 1, 1);
     background: 0 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1249,7 +1249,7 @@ form label {
     border-color: #b72026;
 }
 .form-control-outline.form-control-primary:focus {
-    border-color: rgba(51, 70, 209, .8);
+    border-color: rgb(255, 1, 1);
 }
 .form-control-outline.form-control-primary.custom-select {
     background: transparent url(data:image/svg+xml;
@@ -1304,7 +1304,7 @@ form label {
 }
 .form-control-full:focus {
     color: inherit;
-    background: rgba(51, 70, 209, .8);
+    background: rgb(255, 1, 1);
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none;
@@ -1314,7 +1314,7 @@ form label {
     color: #fff;
 }
 .form-control-full.form-control-primary:focus {
-    background: rgba(51, 70, 209, .8);
+    background: rgb(255, 1, 1);
 }
 .form-control-full.form-control-primary.custom-select {
     background: #b72026 url(data:image/svg+xml;
