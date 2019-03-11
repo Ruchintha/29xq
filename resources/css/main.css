@@ -1,3 +1,11 @@
+.projectinner {
+  width: 100px;
+  height: 100px;
+  background: green;
+  margin: 10px auto;
+  vertical-align: middle;
+}
+
 #preloader  {
      position: fixed;
      top: 0;
