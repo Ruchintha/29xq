@@ -1,26 +1,28 @@
+.text-justify-xs {
+    text-align: justify;
+}
 
-#preloader  {
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
-     bottom: 0;
-     background-color:#fff;
-     z-index: 99;
-    height: 100%;
- }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .text-justify-sm {
+        text-align: justify;
+    }
+}
 
-#status  {
-     width: 200px;
-     height: 200px;
-     position: absolute;
-     left: 50%;
-     top: 50%;
-     background-image: url(http://opengraphicdesign.com/wp-content/uploads/2009/01/loader64.gif);
-     background-repeat: no-repeat;
-     background-position: center;
-     margin: -100px 0 0 -100px;
- }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .text-justify-md {
+        text-align: justify;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .text-justify-lg {
+        text-align: justify;
+    }
+}
+
 .text-black {
     color: #1d1d1d!important;
 }
