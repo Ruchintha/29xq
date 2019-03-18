@@ -1,6 +1,8 @@
 .xqshadow {
-    -webkit-filter: drop-shadow(5px 5px 5px rgb(0, 0, 0, .5));
-    filter: drop-shadow(5px 5px 5px rgb(0, 0, 0, .5));
+    -webkit-filter:
+      drop-shadow(5px 5px 5px rgb(0, 0, 0, .5));
+    filter:
+      drop-shadow(5px 5px 5px rgb(0, 0, 0, .5));
 }
 
 .text-justify-xs {
