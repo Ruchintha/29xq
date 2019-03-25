@@ -8,6 +8,7 @@ figure.projects {
   color: #ffffff;
   text-align: left;
   background-color: #07090c;
+  font-size: 17px;
   -webkit-perspective: 50em;
   perspective: 50em;
 }
@@ -39,9 +40,7 @@ figure.projects figcaption {
   padding: 20px 30px;
 }
 figure.projects h3,
-figure.projects p {
-  line-height: 1.5em;
-}
+
 figure.projects h3 {
   margin: 0;
   font-weight: 800;
