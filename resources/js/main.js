@@ -224,3 +224,10 @@ $(document).on('ready', function() {
         // will fade out the whole DIV that covers the website.
     jQuery("#preloader").delay(1000).fadeOut("slow");
 })
+
+/* project code */
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
