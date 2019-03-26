@@ -1,7 +1,8 @@
 /* Text reveal start */
+
 .reveal-text,
 .reveal-text::after {
-	animation-delay: var(--animation-delay, 5s);
+	animation-delay: var(--animation-delay, 2s);
 	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 1500ms);
 	animation-fill-mode: both;
