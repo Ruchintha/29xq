@@ -4,8 +4,7 @@
 .reveal-text::after {
 	animation-delay: var(--animation-delay, 2s);
 	animation-iteration-count: var(--iterations, 1);
-	animation-duration: var(--duration, 1500ms);
-	animation-fill-mode: both;
+	animation-duration: var(--duration, 800ms);
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
