@@ -5,7 +5,7 @@
 
 .reveal-text,
 .reveal-text::after {
-	animation-delay: var(--animation-delay, 3s);
+	animation-delay: var(--animation-delay, 2s);
 	animation-iteration-count: var(--iterations, 1);
 	animation-duration: var(--duration, 800ms);
 	animation-fill-mode: both;
@@ -14,8 +14,6 @@
 
 .reveal-text {
 	position: relative;
-	font-size: 10vw;
-	animation-name: clip-text;
 	color: #FFF;
 	white-space: nowrap;
 	cursor: default;
