@@ -1,12 +1,4 @@
 /* Text reveal start */
-:root {
-	--animation-delay: 0;
-	--duration: 800ms;
-	--iterations: 1;
-}
-/* ••·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
-
-
 .reveal-text,
 .reveal-text::after {
 	animation-delay: var(--animation-delay, 5s);
