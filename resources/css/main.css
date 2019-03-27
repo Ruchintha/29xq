@@ -4389,14 +4389,14 @@ textarea {
 .row .align-self-end .section-content p:last-child {
     margin-bottom: 0;
 }
-@media(max-width:768px) {
+@media {
     .fp-scrollable {
     height: auto!important;
 }
 .fp-scroller {
     height: auto!important;
 }
-}@media(min-width:768px) {
+}@media {
     .section .anim.translateUp {
     -webkit-transform: translateY(48px);
     transform: translateY(48px);
