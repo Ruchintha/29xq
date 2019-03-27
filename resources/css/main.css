@@ -4421,7 +4421,7 @@ textarea {
     -webkit-transform: none;
     transform: none;
 }
-}@media(min-width:601px) {
+}@media {
     .section .anim .anim-wrapper {
     overflow: hidden;
     display: block;
