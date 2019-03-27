@@ -1,23 +1,27 @@
 /* New div reveal start */
 
-.agent-1, .agent-2 {
+.xqanim-1, .xqanim-2, .xqanim-4 {
   opacity: 0;
   animation: fade-in-right ease 0.4s forwards;
 }
 
-.agent-3 {
+.xqanim-3 {
   transform: scaleX(0);
   transform-origin: left;
   animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
-  animation-delay: 0.8s;
+  animation-delay: 0.7s;
 }
 
-.agent-2 {
-  animation-delay: 0.8s;
+.xqanim-2 {
+  animation-delay: 0.5s;
 }
 
-.agent-4 {
-  animation-delay: 1s;
+.xqanim-4 {
+  animation-delay: 0.7s;
+}
+
+.xqanim-4 {
+  animation-delay: 0.9s;
 }
 
 @keyframes fade-in-right {
