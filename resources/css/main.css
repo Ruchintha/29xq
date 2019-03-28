@@ -4484,19 +4484,19 @@ textarea {
 }
 .section.active .anim.translateUp {
     -webkit-transition-delay: .5s;
-    transition-delay: .5s;
+    transition-delay: .3s;
     -webkit-transform: none;
     transform: none;
 }
 .section .anim.translateDown {
     -webkit-transform: translateY(-48px);
     transform: translateY(-48px);
-    -webkit-transition: .5s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
     transition: .5s ease-in-out;
 }
 .section.active .anim.translateDown {
     -webkit-transition-delay: .5s;
-    transition-delay: .5s;
+    transition-delay: .3s;
     -webkit-transform: none;
     transform: none;
 }
@@ -4508,7 +4508,7 @@ textarea {
 .section .anim .anim-1, .section .anim .anim-2, .section .anim .anim-3, .section .anim .anim-4 {
     -webkit-transition: .5s;
     transition: .5s;
-    -webkit-transition-delay: .5s;
+    -webkit-transition-delay: .3s;
     transition-delay: .5s;
     position: relative;
     -webkit-transform: translateY(20px);
@@ -4518,8 +4518,8 @@ textarea {
 .section .anim .zoomout-1 {
     -webkit-transition: .6s;
     transition: .6s;
-    -webkit-transition-delay: .5s;
-    transition-delay: .5s;
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     opacity: 0;
@@ -4528,8 +4528,8 @@ textarea {
     opacity: 0;
     -webkit-transition: .6s;
     transition: .6s;
-    -webkit-transition-delay: .5s;
-    transition-delay: .5s;
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
 }
 .section.active .anim .anim-1 {
     -webkit-transform: none;
@@ -4541,58 +4541,58 @@ textarea {
 .section.active .anim .anim-2 {
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s;
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
     opacity: 1;
 }
 .section.active .anim .anim-3 {
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: .8s;
-    transition-delay: .8s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
     opacity: 1;
 }
 .section.active .anim .anim-4 {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: 1s;
-    transition-delay: 1s;
+    -webkit-transition-delay: .8s;
+    transition-delay: .8s;
 }
 .section.active .anim .zoomout-1 {
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: .7s;
-    transition-delay: .7s;
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s;
     opacity: 1;
 }
 .section.active .anim .fade-1 {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: .5s;
-    transition-delay: .5s;
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
 }
 .section.active .anim .fade-2 {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: .8s;
-    transition-delay: .8s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
 }
 .section.active .anim .fade-3 {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: .8s;
-    transition-delay: .8s;
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
 }
 .section.active .anim .fade-4 {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
-    -webkit-transition-delay: .9s;
-    transition-delay: .9s;
+    -webkit-transition-delay: .7s;
+    transition-delay: .7s;
 }
 }.section-home {
     display: -webkit-box;
