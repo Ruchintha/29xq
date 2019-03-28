@@ -1,3 +1,84 @@
+/* Screen size divs end */
+
+.desk{
+  width:400px;
+  height:200px;
+  background:red;
+}
+.div-only-mobile{
+  width:400px;
+  height:200px;
+  background:orange;
+}
+@media screen and (max-width : 1920px){
+  .div-only-mobile{
+  visibility:hidden;
+  }
+}
+@media screen and (max-width : 906px){
+ .desk{
+  visibility:hidden;
+  }
+ .div-only-mobile{
+  visibility:visible;
+  }
+}
+
+/* Screen size divs end */
+
+
+/* New gradient background start */
+.xqredbg{
+  background-color: #b72026;
+}
+
+.xqbackground {
+	background: linear-gradient(-45deg, #b72026, #1d1d1d);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+/* New gradient background end  */
+
+
 /* New div reveal start */
 
 .xqanim-1, .xqanim-2, .xqanim-4 {
