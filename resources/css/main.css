@@ -32,12 +32,12 @@
   background-color: #b72026;
 }
 
-.xqbackground {
-	background: linear-gradient(-45deg, #b72026, #1d1d1d);
+.xqbg {
+	background: linear-gradient(-45deg, #b72026, #1d1d1d, #000);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 8s ease infinite;
+	-moz-animation: Gradient 8s ease infinite;
+	animation: Gradient 8s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
