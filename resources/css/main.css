@@ -1,4 +1,14 @@
+.xqabout {
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
 
+.xqaboutbg {
+  left: 0px;
+  top: 0px;
+  z-index: -10;
+}
 /* Screen size divs end */
 .desk{
   width:400px;
@@ -5577,16 +5587,16 @@ h1, h2, h3, h4 {
     background: rgba(27, 27, 27, .8);
 }
 .about-description p {
-    margin: 0;
+    margin: 10;
 }
 .about-section .shadow {
     -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, .3);
     box-shadow: 0 0 40px rgba(0, 0, 0, .3);
 }
-@media(max-width:1366px) {
+/* @media(max-width:1366px) {
     .about-description {
     top: -90px;
-}
+} */
 .section-title .title-bg {
     font-size: 5em;
 }
