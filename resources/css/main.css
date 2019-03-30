@@ -1,12 +1,9 @@
 .xqabout {
-  left: 0px;
-  top: 0px;
   z-index: 100;
 }
 
 .xqaboutbg {
-  left: 0px;
-  top: 0px;
+  height: 200px;
   z-index: -10;
 }
 /* Screen size divs end */
