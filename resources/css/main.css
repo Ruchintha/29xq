@@ -5612,10 +5612,12 @@ h1, h2, h3, h4 {
 }
 .mb-32 {
     margin-bottom: 22px;
+    margin-top: 20px;
 }
 }@media(max-width:1024px) {
     .mb-32 {
     margin-bottom: 32px;
+    margin-top: 20px;
 }
 }@media(max-width:736px) {
     .img-frame-legend-alpha img {
@@ -5636,6 +5638,7 @@ h1, h2, h3, h4 {
 }
 }.mb-32 {
     margin-bottom: 32px;
+    margin-top: 20px;
 }
 .mr-auto-my {
     margin: 0 auto;
