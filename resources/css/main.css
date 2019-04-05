@@ -3813,8 +3813,8 @@ textarea {
     font-size: 16px;
 }
 .page-footer.scrolled .footer-left, .page-footer.scrolled .footer-right {
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
     opacity: 0;
     visibility: hidden;
 }
